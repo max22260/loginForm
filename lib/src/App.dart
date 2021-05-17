@@ -10,9 +10,7 @@ class App extends StatelessWidget {
           title: Text('Login App'),
           backgroundColor: Colors.blue,
         ),
-        body: Center(
-          child: LoginScreen(),
-        ),
+        body: LoginScreen(),
       ),
     );
   }
